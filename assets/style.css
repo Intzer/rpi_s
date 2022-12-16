@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+	color: #242424;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+/* === Base === */
+a {
+	color: #242424;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #242424;
+	text-decoration: underline;
+}
+
+.display-item-16-9 {
+	background: #fff;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.display-item-16-9 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	outline-width: 0;
+}
+
+/* === Header Section === */
+header {
+	background: #e8e8e8;
+}
+
+header a {
+	font-size: 18px;
+}
+
+/* === Main Section === */
+.main-photo {
+	background: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0;
+}
+
+#wborndie {
+	font-weight: bold;
+	color: #fff;
+}
+
+.main-images img {
+	height: 300px;
+}
+
+.main-video, .main-map {
+	padding: 0% 10%;
+}
+
+.main-bio-inner {
+	padding-left: 220px;
+}
+
+.main-bio-icon {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+
+/* === Footer Section === */
+footer {
+	background: #e8e8e8;
+}
+
+.dev-card {
+	flex-basis: 210px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.dev-card > div {
+	border-radius: 5px;
+}
+
+.dev-card-head {
+	background: orange;
+}
+
+.dev-card-name {
+	color: #fff;
+}
+
+.dev-card-img img {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}
+
+.dev-card-text {
+	font-weight: 300;
+}
